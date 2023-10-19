@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: url('Web_1600_900_scaled.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+    max-width:600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+img {
+   width:586px;
+   height: 185px;
+}
+
+.input-group {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+input {
+    -webkit-box-shadow:inset 0 0 5px #000;
+       -moz-box-shadow:inset 0 0 5px #000;
+            box-shadow:inset 0 0 5px #000;
+    width: 600px;
+    height: 50px;
+    font-size:40px;
+}
+
+label {
+    display: block;
+    font-size:28px;
+    color: #8aeec0;
+    margin-bottom: 10px;
+}
+
+button {
+    float:right;
+    padding: 10px 20px;
+    height: 80px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #1b5a55;
+    font-size:28px;
+    border: none; /* 移除邊框 */
+    border-radius: 10px; /* 原邊角 */
+    background: linear-gradient(180deg, #45d6cd, #97e0be); /* 薄荷色漸層背景（由上到下） */
+    cursor: pointer; /* 滑鼠樣式 */
+    transition: 0.3s; /* 滑鼠移上去的動畫效果 */
+    outline: none; /* 去除預設的外框 */
+    box-shadow: 0 0 0 3px #45d6cd, /* 3px 的透明外框線 */
+                inset 0 0 0 2px #27a59d; /* 5px 的向內深綠色框（使用上一步得到的 #1a7d76a3） */
+}
+
+button:hover {
+    background: linear-gradient(180deg, #3cbdb4, #89ccad); /* 滑鼠移上去的漸層背景反向 */
+}
+
+button:active {
+    transform: scale(0.95); /* 按下去的縮小效果 */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+    body {
+        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .container {
+        top: 75%;
+        right: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    img {
+       width:298px;
+       height: 91px;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虛寶兌換網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="extracted_image_0.png" alt="Girl in a jacket">
+        <h1>兌換碼</h1>
+        <form id="exchangeForm">
+            <div class="input-group">
+                <label for="userId">帳號 ID:</label>
+                <input type="text" id="userId" required>
+            </div>
+            <div class="input-group">
+                <label for="serialNumber">兌換碼:</label>
+                <input type="text" id="serialNumber" required>
+            </div>
+            <button type="submit">領取獎勵</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
