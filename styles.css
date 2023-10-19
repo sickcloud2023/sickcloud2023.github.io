@@ -76,35 +76,51 @@ button:active {
     transform: scale(0.95); /* 按下去的縮小效果 */
 }
 
-/* Mobile styles */
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 375px) {
 
     body {
         background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
         background-size: cover;
     }
     .container {
-        top: 30%;
+        top: 35%;
         right: auto;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     img {
        width:298px;
        height: 91px;
     }
 
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    input {
+        width: 350px;
+        height: 30px;
+        font-size:30px;
+    }
+
     button {
-        height: 70px;
-        width: 170px;
-      
+        height: 50px;
+        width: 150px;
+        font-size:20px;
+    
+    }
+
+    label {
+        font-size:20px;
     }
     
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) and (min-width:380px) {
 
     body {
         background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
@@ -137,45 +153,34 @@ button:active {
     
 }
 
-
-@media screen and (max-width: 375px){
+/* Mobile styles */
+@media screen and (max-width: 768px) and (min-width:451px) {
 
     body {
         background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
         background-size: cover;
     }
     .container {
-        top: 35%;
+        top: 30%;
         right: auto;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     img {
        width:298px;
        height: 91px;
     }
 
-    .input-group {
-        margin-bottom: 15px;
-    }
-
-    input {
-        width: 350px;
-        height: 30px;
-        font-size:30px;
-    }
-
     button {
-        height: 40px;
-        width: 150px;
-        font-size:20px;
-    
-    }
-
-    label {
-        font-size:20px;
+        height: 70px;
+        width: 170px;
+      
     }
     
 }
+
+
+
+
