@@ -105,6 +105,43 @@ button:active {
     
 }
 
+@media screen and (max-width: 510px) {
+
+    body {
+        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .container {
+        top: 30%;
+        right: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    img {
+       width:298px;
+       height: 91px;
+    }
+
+    input {
+        width: 450px;
+        height: 40px;
+        font-size:40px;
+    }
+
+    button {
+        height: 70px;
+        width: 170px;
+      
+    }
+    
+    label {
+        font-size:24px;
+    }
+    
+}
+
 @media screen and (max-width: 450px) {
 
     body {
@@ -126,14 +163,18 @@ button:active {
 
     input {
         width: 400px;
-        height: 50px;
-        font-size:40px;
+        height: 35px;
+        font-size:35px;
     }
 
     button {
-        height: 70px;
-        width: 170px;
+        height: 60px;
+        width: 160px;
+        font-size:25px;
     
+    }
+    label {
+        font-size:20px;
     }
     
 }
