@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "http://sickgametest.com/SerialNumber/ExchangeOneOnOneById",
+            url: "https://gangstart.site/SerialNumber/ExchangeOneOnOneById",
             data: JSON.stringify({ "Id": userId, "serialNumber" : serialNumber }),
             contentType:"application/json; charset=utf-8",
             dataType:"json",
