@@ -77,132 +77,19 @@ button:active {
     transform: scale(0.95); /* 按下去的縮小效果 */
 }
 
-@media screen and (max-width: 375px) {
 
-    body {
-        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
-        background-size: cover;
-    }
-    .container {
-        top: 35%;
-        right: auto;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-    img {
-       width:298px;
-       height: 91px;
-    }
-
-    .input-group {
-        margin-bottom: 15px;
-    }
-
-    input {
-        width: 350px;
-        height: 30px;
-        font-size:30px;
-    }
-
-    button {
-        height: 50px;
-        width: 150px;
-        font-size:20px;
-    
-    }
-
-    label {
-        font-size:20px;
-    }
-    
-}
-
-@media screen and (max-width: 450px) {
-
-    body {
-        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
-        background-size: cover;
-    }
-    .container {
-        top: 40%;
-        right: auto;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-    img {
-       width:298px;
-       height: 91px;
-    }
-
-    input {
-        width: 400px;
-        height: 35px;
-        font-size:35px;
-    }
-
-    button {
-        height: 60px;
-        width: 160px;
-        font-size:25px;
-    
-    }
-    label {
-        font-size:20px;
-    }
-    
-}
-
-@media screen and (max-width: 510px) {
-
-    body {
-        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
-        background-size: cover;
-    }
-    .container {
-        top: 30%;
-        right: auto;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-    img {
-       width:298px;
-       height: 91px;
-    }
-
-    input {
-        width: 450px;
-        height: 40px;
-        font-size:40px;
-    }
-
-    button {
-        height: 70px;
-        width: 170px;
-      
-    }
-    
-    label {
-        font-size:24px;
-    }
-    
-}
-
-/* Mobile styles */
 @media screen and (max-width: 768px) {
 
     body {
-        background: url('No_Logo_SVG_Phone.svg') no-repeat center center fixed;
+        background: url('No_Logo_SVG_Phone.svg')  center center no-repeat fixed;
         background-size: cover;
     }
     .container {
-        top: 35%;
-        right: auto;
+        position: relative;
+        top: 350px;
+        max-width: 100%;
+        min-height: 600px;
+        right: 0%;
     }
 
     h1 {
@@ -213,6 +100,10 @@ button:active {
        height: 91px;
     }
 
+    input {
+        width: 100%;
+        font-size:30px;
+    }
     button {
         height: 70px;
         width: 170px;
