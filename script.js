@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var userId = urlParams.get('id');
+    $('#userId').val(userId); 
+    
     $('#exchangeForm').submit(function(event) {
         event.preventDefault();
 
